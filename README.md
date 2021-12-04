@@ -11,6 +11,8 @@ This project is for **educational** porpuses only. Pull request are welcome, but
 
 Site published at: https://agnekauk.github.io/5-forma/
 
+Design [Forma] (https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
+
 
 
 ## Project features
@@ -19,6 +21,8 @@ Site published at: https://agnekauk.github.io/5-forma/
 -   ***CSS***
 -   ***Image***
 -   ***Web content***
+-   ***CSS position absolute***
+-   ***CSS blur effect***
 
 
 

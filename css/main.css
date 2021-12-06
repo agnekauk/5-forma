@@ -24,6 +24,28 @@ body {
     margin-top: 20px;
     background-color: #494eac;
 }
+.main-title {
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+    font-size: 32 px;
+    font-weight: lighter;
+}
+.bottom-links {
+    display: inline-block;
+    width: 100%;
+}
+.bottom-links > .link {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bottom-links > .symbol {
+    color: #ffffff;
+    font-size: 14px;
+}
+
 .right-column {
     float:left;
     width: 60%;

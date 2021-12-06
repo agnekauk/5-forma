@@ -52,3 +52,7 @@ body {
     padding: 60px;
     background-color: #ffffff;
 }
+.close {
+    display: inline-block;
+    background-color: coral;
+}

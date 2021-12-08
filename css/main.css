@@ -9,7 +9,6 @@ body * {
 body {
     background-color: #00afcc;
 }
-
 .container {
     display: inline-block;
     width: 800px;
@@ -17,7 +16,6 @@ body {
     margin-left: calc(50% - 400px);
 }
 .left-column {
-    display: inline-block;
     float:left;
     width: 40%;
     padding: 40px;
@@ -32,7 +30,7 @@ body {
     .main-title {
     display: inline-block;
     width: 100%;
-    font-size: 32 px;
+    font-size: 32px;
     font-weight: lighter;
 }
 .bottom-links {
@@ -44,12 +42,10 @@ body {
     font-size: 14px;
     text-decoration: none;
 }
-
 .bottom-links > .symbol {
     color: #ffffff;
     font-size: 14px;
 }
-
 .right-column {
     float:left;
     width: 60%;
@@ -59,4 +55,22 @@ body {
 .close {
     display: inline-block;
     background-color: coral;
+}
+.right-column span {
+    display: inline-block;
+    padding:15px;
+    padding-right: 0px;
+    line-height: 20px;
+}
+.right-column a {
+    display: inline-block;
+    padding:15px;
+    padding-left:0px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #494eac;
+}
+.right-column a:hover {
+    text-decoration: underline;
 }

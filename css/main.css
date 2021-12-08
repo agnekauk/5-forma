@@ -56,3 +56,21 @@ body {
     display: inline-block;
     background-color: coral;
 }
+.right-column span {
+    display: inline-block;
+    padding:15px;
+    padding-right: 0px;
+    line-height: 20px;
+}
+.right-column a {
+    display: inline-block;
+    padding:15px;
+    padding-left:0px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #494eac;
+}
+.right-column a:hover {
+    text-decoration: underline;
+}

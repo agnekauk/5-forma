@@ -12,3 +12,6 @@
     border-radius: 25px;
     cursor: pointer;
 }
+.btn:hover {
+    background-image: linear-gradient(to right, rgb(97, 48, 97),rgb(153, 52, 153));
+}

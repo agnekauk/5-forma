@@ -1,7 +1,7 @@
 .btn {
     display: inline-block;
     width: auto;
-    background-color: #144DD9;
+    background-image: linear-gradient(to right, #1f49b4, #144cd9c0);
     padding: 15px;
     padding-left: 50px;
     padding-right: 50px;

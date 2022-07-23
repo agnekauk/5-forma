@@ -4,13 +4,13 @@
   "description": "Forma",
   "main": "index.js",
   "scripts": {
-    "dev": "live-server --port=5000 --host=localhost",
+    "dev": "dead-server --port=5000 --host=localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Agne",
   "license": "MIT",
-  "dependencies": {
-    "live-server": "^1.2.1"
+  "devDependencies": {
+    "dead-server": "^1.0.6"
   }
 }

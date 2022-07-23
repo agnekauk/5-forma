@@ -3,13 +3,13 @@
     width: 100%;
 }
 
-.form>.form-row {
+.form > .form-row {
     display: inline-block;
     width: 100%;
     margin-bottom: 30px;
 }
 
-.form>.form-row:last-of-type {
+.form > .form-row:last-of-type {
     display: inline-block;
     width: 100%;
     margin-bottom: 0px;
@@ -24,7 +24,7 @@
     color: rgba(90, 90, 90, 0.699);
 }
 
-.form>.form-row>input {
+.form > .form-row>input {
     display: inline-block;
     width: 100%;
     font-size: 14px;
@@ -33,7 +33,7 @@
     border-bottom: 2px solid lightgrey;
 }
 
-.form>.form-row>input:focus {
+.form > .form-row > input:focus {
     outline: blueviolet solid 1px;
 }
 
@@ -44,12 +44,12 @@
 }
 
 @media (max-width: 680px) {
-    .form>.form-row:last-of-type {
+    .form > .form-row:last-of-type {
         display: flex;
         flex-direction: column;
     }
 
-    .form>.form-row>div {
+    .form > .form-row>div {
         display: flex;
         justify-content: center;
         gap: 15px;

@@ -64,13 +64,13 @@ body {
     right: 40px;
 }
 
-.bottom-links>.link {
+.bottom-links > .link {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
 }
 
-.bottom-links>.symbol {
+.bottom-links > .symbol {
     color: #ffffff;
     font-size: 14px;
 }
@@ -98,14 +98,14 @@ body {
     display: inline-block;
 }
 
-.right-column div>span {
+.right-column div > span {
     display: inline-block;
     padding: 15px;
     padding-right: 0px;
     line-height: 20px;
 }
 
-.right-column div>a {
+.right-column div > a {
     display: inline-block;
     padding: 15px 0px 15px 0px;
     line-height: 20px;
@@ -114,39 +114,8 @@ body {
     color: #494eac;
 }
 
-.right-column div>a:hover {
+.right-column div > a:hover {
     text-decoration: underline;
-}
-
-.central-text-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 650px;
-    padding: 30px;
-    gap: 20px;
-    text-align: justify;
-    background-color: #ffffff55;
-}
-
-.messages {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    color: rgba(90, 90, 90, 0.699);
-    font-size: 13px;
-    border-radius: 3px;
-}
-
-.success {
-    background-color: rgba(177, 238, 144, 0.795);
-}
-
-.danger {
-    background-color: rgba(240, 128, 128, 0.725);
-}
-
-.show {
-    display: block;
 }
 
 @media (max-width: 850px) {
@@ -192,7 +161,7 @@ body {
         margin-left: 10%;
     }
 
-    .right-column div>span {
+    .right-column div > span {
         padding-left: 0px;
     }
 }
@@ -204,11 +173,11 @@ body {
 }
 
 @media (max-width: 350px) {
-    .bottom-links>.link {
+    .bottom-links > .link {
         font-size: 12px;
     }
 
-    .bottom-links>.symbol {
+    .bottom-links > .symbol {
         font-size: 12px;
     }
 }
